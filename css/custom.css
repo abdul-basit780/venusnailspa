@@ -1,0 +1,226 @@
+.menu-border {
+    border: 2px solid #fd1c79;
+    padding: 22px;
+    border-radius: 5px;
+}
+.price-item-mainmenu{
+    color: #fd1c79 !important;
+    font-weight: 700;
+}
+.a-text{
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    background: #fd1c79;
+    text-align: center;
+}
+.a-text:hover{
+    color: #fd1c79;
+    background: #fff;
+}
+.a-text span {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.section-mainmenu{
+    background-color: #fff;
+}
+.text-light{
+    color: white !important;
+}
+.menu-heading{
+    color: white;
+    margin-bottom: 25px;
+    background-color: #fd1c79;
+    text-align: center;
+    border: #fd1c79;
+    border-radius: 10px;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-heading span{
+    font-size: 28px;
+}
+.section-ourmenu{
+    background: #fff;
+}
+.text-custom{
+    color: #fd1c79 !important;
+}
+.modal-menu{
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1250;
+}
+.modal-menu .modal-dialog {
+    max-width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.about-section{
+    background: #fff;
+}
+.section-chef {
+    background: #fff;
+}
+.sidebar{
+    background: #fff;
+}
+.section-contact{
+    background: #fff;
+}
+/* .slider-logo{
+    display: none !important;
+    width: 270px;
+    margin-bottom: 25px;
+    z-index: 999;
+} */
+.image-overlay{
+    display: none !important;
+}
+body.modal-open {
+    overflow: hidden;
+    -webkit-overflow-scrolling: auto;
+}
+.custom-arrow{
+    font-size: 28px;
+    color: #fd1c79;
+}
+
+#menu-flters li:hover{
+    color: #fff;
+    background: #fd1c79;
+}
+#menu-flters li.active{
+    color: #fff;
+    background: #fd1c79;
+}
+#menu-flters li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fd1c79;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid #fd1c79;
+    border-radius: 50px;
+}
+.btn2{
+    text-align: center;
+}
+
+
+.th-text-primary{
+    font-size: 24px;
+	color: #fd1c79;
+}
+
+.name-logo{
+    font-family: 'Caveat', cursive;
+    color: #222222;
+    font-size: 34px;
+}
+
+.slider-logo{
+    width: 200px;
+    border: 3px solid #f51c79;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media (max-width: 786px){
+    .a-text{
+        padding: 13px;
+    }
+    .a-text span {
+        font-size: 14px;
+    }
+    .menu-heading{
+        padding-left: 2rem!important;
+        padding-right: 2rem!important;
+        padding-top: 8px;
+        padding-bottom: 8ox;
+    }
+    .menu-heading span{
+        font-size: 20px;
+    }
+    .txt21 {
+        font-size: 15px;
+    }
+    .txt22 {
+        font-size: 16px;
+    }
+    .logo{
+        margin-left: -25px;
+        margin-top: -25px;
+    }
+    .social i{
+        color: #000;
+    }
+    .wrap-menu-header{
+        height: 86px;
+        background: rgb(254 254 254);
+        box-shadow: 0px 2px 5px rgb(0 0 0 / 10%);
+        position: fixed;
+    }
+    .btn-show-sidebar {
+        border-top: 2px solid  #fd1c79;
+        border-bottom: 2px solid  #fd1c79;
+      }
+
+
+    /* .slider-tit1 {
+        display: none;
+    }
+    .slider-tit2 {
+        display: none;
+    } */
+    .tit2 {
+        font-size: 36px;
+    }
+    .tit3 {
+        font-size: 24px;
+        text-shadow: 5px 5px 5px #000;
+    }
+    /* .logo img{
+        display: none;
+    } */
+    /* .slider-logo{
+        display: block !important;
+        margin-left: -42px;
+    } */
+    .image-overlay{
+        display: block !important;
+        height: 24px;
+        width: 57%;
+        background: #fff6f6f2;
+        margin-top: -77px;
+        z-index: 2;
+        color: #fff6f6f2;
+        margin-bottom: 26px;    
+    }
+    .name-logo{
+        margin-left: 24px;
+        margin-top: 15px;
+    }
+}
